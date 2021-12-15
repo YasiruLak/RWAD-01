@@ -37,154 +37,153 @@
         }
 
         body>div{
-            border: 2px solid red;
-            width: 100px;
-            height: 100px ;
-        }
-
-        body > aside {
-            width: 10vw;
-            height: 20vh;
-            background: white;
+            border: 2px solid white;
+            width: 150px;
+            height: 150px;
             position: absolute;
+            z-index: 2;
+            background-color: white;
         }
 
-        body > article {
-            left: 0;
+        body>div:nth-child(5){
             top: 0;
-            bottom: 0;
-            right: 0;
-            margin: auto;
-            width: 10vw;
-            height: 20vh;
-            background: white;
-            position: absolute;
-        }
-
-        body > aside:nth-child(5) {
             left: 0;
-            top: 0;
-            border-bottom-right-radius: 100%;
-        }
-
-        body > aside:nth-child(6) {
-            right: 0;
-            top: 0;
-            border-bottom-left-radius: 100%;
-        }
-
-        body > aside:nth-child(7) {
-            left: 0;
-            bottom: 0;
-            border-top-right-radius: 100%;
-        }
-
-        body > aside:nth-child(8) {
-            right: 0;
-            bottom: 0;
-            border-top-left-radius: 100%;
-        }
-
-        body > aside:nth-child(9) {
-            right: 0;
-            bottom: 0;
-            border-top-left-radius: 100%;
-        }
-
-        body > div {
-            width: 10vw;
-            height: 11vh;
-            background: white;
-            position: absolute;
-        }
-
-        body > div:nth-child(10) {
-            left: 0;
-            right: 0;
-            margin: auto;
-            border-bottom-left-radius: 150px;
             border-bottom-right-radius: 150px;
         }
 
-        body > div:nth-child(11) {
-            left: 0;
+        body>div:nth-child(6){
+            top: 0;
             right: 0;
+            border-bottom-left-radius: 150px;
+        }
+
+        body>div:nth-child(7){
             bottom: 0;
-            margin: auto;
-            border-top-left-radius: 150px;
+            left: 0;
             border-top-right-radius: 150px;
         }
 
-        body > section > div {
-            width: 10vw;
-            height: 20vh;
+        body>div:nth-child(8){
+            bottom: 0;
+            right: 0;
+            border-top-left-radius: 150px;
+        }
+
+        body>div:nth-child(9){
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+
+        }
+
+        body>div>div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 100px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto ;
+
+        }
+
+        body>div:nth-child(10){
+            left: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+            height: 100px;
+            width: 200px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+
+        }
+
+        body>div:nth-child(11){
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            height: 100px;
+            width: 200px;
+            border-top-right-radius: 100px;
+            border-top-left-radius: 100px;
+
+        }
+
+        section>div{
+            background-color: white;
+            border-radius: 150px;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            right: 0;
             top: 0;
             bottom: 0;
             left: 0;
-            right: 0;
-            background: white;
-            position: absolute;
             margin: auto;
-            border-radius: 100%;
         }
 
-        body > section > div > article {
-            width: 5vw;
-            height: 10vh;
+        section>div>div{
+            background-color: red;
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            right: 0;
             top: 0;
             bottom: 0;
             left: 0;
-            right: 0;
-            background: red;
-            position: absolute;
             margin: auto;
         }
-
-        body > article > div {
-            width: 5vw;
-            height: 10vh;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: red;
-            position: absolute;
-            margin: auto;
-            border-radius: 100%;
-        }
-
 
     </style>
 </head>
 <body>
+<!--main section-->
 <section>
     <div>
-        <article></article>
+        <div></div>
     </div>
 </section>
 <section>
     <div>
-        <article></article>
+        <div></div>
     </div>
 </section>
 <section>
     <div>
-        <article></article>
+        <div></div>
     </div>
 </section>
 <section>
     <div>
-        <article></article>
+        <div></div>
     </div>
 </section>
-<aside></aside>
-<aside></aside>
-<aside></aside>
-<aside></aside>
-<article>
+
+<!--for circle-->
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<!--center box-->
+<div>
+    <!--center circle-->
     <div></div>
-</article>
+</div>
+
+<!--top center & bottom center circle-->
 <div></div>
 <div></div>
+
 </body>
 </html>
